@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">NewsStand V2</string>
+
+        <string name="cat_eco">Economy</string>
+        <string name="cat_politics">Politics</string>
+        <string name="cat_sports">Sports</string>
+        <string name="cat_science">Science</string>
+        <string name="no_news">No News Found!</string>
+        <string name="no_internet_connection">Please check your Internet connection!</string>
+        <string name="settings_title">News Settings</string>
+        <string name="settings_min_articles_label">Minimum Stories Shown</string>
+        <string name="settings_min_articles_key" translatable="false">page-size</string>
+        <string name="settings_min_articles_default" translatable="false">5</string>
+
+        <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+        <string name="settings_order_by_label">Order By</string>
+        <string name="settings_order_by_key" translatable="false">order-by</string>
+        <string name="settings_order_by_default" translatable="false">@string/settings_order_by_popularity_value</string>
+
+        <!-- Label for order-by most relevant with category (news) option [CHAR LIMIT=20] -->
+        <string name="settings_order_by_popularity_label">Most relevant</string>
+        <string name="settings_order_by_popularity_value" translatable="false">relevance</string>
+
+        <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+        <string name="settings_order_by_most_recent_label">Most Recent</string>
+        <string name="settings_order_by_most_recent_value" translatable="false">newest</string>
+
+    </resources>
+
